@@ -55,7 +55,7 @@ max_date = all_df["dateday"].max()
 # sidebar
 with st.sidebar:
     # menambahkan logo
-    st.image("8960285.jpg")
+    #st.image("8960285.jpg")
     # mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label='Time Period',
