@@ -40,7 +40,7 @@ def create_rfm(df):
     return rfm_df
 
 # masukkan dataset
-all_df = pd.read_csv("https://raw.githubusercontent.com/audyfebryantii/submission-dicoding/main/dashboard/main_data.csv")
+all_df = pd.read_csv("main_data.csv")
 
 datetime_columns = ["dateday"]
 all_df.sort_values(by="dateday", inplace=True)
@@ -55,7 +55,7 @@ max_date = all_df["dateday"].max()
 # sidebar
 with st.sidebar:
     # menambahkan logo
-    #st.image("8960285.jpg")
+    st.image("https://raw.githubusercontent.com/audyfebryantii/submission-dicoding/961059c30f9cbe0f2bfc9f528e30c5200fd4f4aa/dashboard/8960285.jpg")
     # mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label='Time Period',
