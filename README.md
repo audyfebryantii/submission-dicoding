@@ -25,7 +25,21 @@ conda activate main-ds
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 
-## Run steamlit app
+## Run streamlit app (local)
+1. Clone this repository
+   ```
+   https://github.com/audyfebryantii/submission-dicoding.git
+   ```
+2. Direct the path to the dashboard directory
+   ```
+   cd submission-dicoding/dashboard
+   ```
+3. Run streamlit app
+   ```
+   streamlit run dashboard.py
+   ```
+
+## Run streamlit app (cloud)
 ```
-streamlit run dashboard.py
+https://bike-rental-dash.streamlit.app/
 ```
