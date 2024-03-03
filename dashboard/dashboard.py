@@ -40,7 +40,7 @@ def create_rfm(df):
     return rfm_df
 
 # masukkan dataset
-all_df = pd.read_csv("main_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/audyfebryantii/submission-dicoding/main/dashboard/main_data.csv")
 
 datetime_columns = ["dateday"]
 all_df.sort_values(by="dateday", inplace=True)
